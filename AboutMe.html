@@ -1,0 +1,251 @@
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Biodata</title>
+
+    <style>
+
+    .holiday-text {
+        text-align: justify;
+        line-height: 1.6;
+        max-width: 700px;
+        margin: 15px 0 15px 30px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Student Biodata</h1>
+
+        <p>Welcome to my personal student profile page.</p>
+
+    </header>
+
+    <nav>
+
+        <a href="#profile">Profile</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#academic">Academic Record</a> |
+        <a href="#contact">Contact Me</a> |
+        <a href="index.html">Back to Home</a>
+
+    </nav>
+
+    <main>
+
+        <!-- Profile Section -->
+
+        <section id="profile">
+
+            <h2>Student Profile</h2>
+
+            <img src="profile.jpg"
+                 alt="Student profile photo"
+                 width="200"
+                 height="200">
+
+            <p>
+                Hello! My name is
+                <strong>Frenky Jul Prima Jaya Waruwu</strong>.
+                I am a student at the Faculty of Information Technology.
+            </p>
+
+            <h3>Personal Information</h3>
+
+            <p>
+                <strong>Name:</strong> Frenky Jul Prima Jaya Waruwu<br>
+                <strong>Student ID (NIM):</strong> 2582025<br>
+                <strong>Study Program:</strong> Information Systems<br>
+                <strong>Email:</strong>
+                <a href="mailto:2582025@unai.edu">2582025@unai.edu</a>
+            </p>
+
+        </section>
+
+        <!-- Hobbies Section -->
+
+        <section id="hobbies">
+
+            <!-- Holiday Paragraph -->
+
+            <p class="holiday-text">
+                My holiday was a very enjoyable experience. I spent my free time
+                relaxing and doing many activities that I liked. I spent more time
+                with my family and friends, where we talked, laughed, and enjoyed
+                simple moments together. I also visited several interesting places
+                and took some pictures as memories. The holiday gave me a chance to
+                rest after studying and helped me feel refreshed, happy, and ready
+                to continue my daily activities.
+            </p>
+
+            <p class="holiday-text">
+                During my holiday, I also spent time doing things that I usually
+                could not do because of my busy study schedule. I watched movies,
+                listened to music, played games, and helped my family at home. The
+                most memorable part was spending quality time with my family while
+                sharing stories and enjoying meals together. Although the holiday
+                was simple, it made me very happy and motivated me to continue my
+                studies with new energy and a positive attitude.
+            </p>
+
+            <h2>My Hobbies</h2>
+
+            <h3>My Favorite Hobbies</h3>
+
+            <ol>
+
+                <li>Programming</li>
+                <li>Running</li>
+
+            </ol>
+
+            <h3>Other Activities I Enjoy</h3>
+
+            <ul>
+
+                <li>Listening to Music</li>
+                <li>Watching Movies</li>
+                <li>Photography</li>
+                <li>Travelling</li>
+
+            </ul>
+
+        </section>
+
+        <!-- GPA Table -->
+
+        <section id="academic">
+
+            <h2>Academic Record</h2>
+
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+
+                        <th>No</th>
+                        <th>Semester</th>
+                        <th>Academic Year</th>
+                        <th>GPA</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>1</td>
+                        <td>Odd Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.42</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2</td>
+                        <td>Even Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.20</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- Contact Me Section -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="fullName">Full Name:</label><br>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    minlength="3"
+                    maxlength="50"
+                    required
+                ><br><br>
+
+                <label for="email">Email Address:</label><br>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                ><br><br>
+
+                <label for="category">Message Category:</label><br>
+
+                <select id="category" name="category">
+
+                    <option value="">-- Select Category --</option>
+                    <option value="academic">Academic</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="general">General</option>
+
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    minlength="10"
+                    maxlength="500"
+                    required
+                ></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Frenky Jul Prima Jaya Waruwu |
+            Web Programming I
+        </p>
+
+        <p>
+            Faculty of Information Technology<br>
+            Universitas Advent Indonesia
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
